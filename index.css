@@ -1,7 +1,8 @@
 *{
     background-color:navajowhite;
     margin: 0;
-    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     box-sizing: border-box;
    
 }
@@ -25,8 +26,8 @@ p{
 }
 
 .text-container-one{
-    width: 80vw;
-    height: auto;
+    width: 100vw;
+    height: 35%;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -36,9 +37,10 @@ p{
 
 .text-container-two{
     width:100vw;
-    height: auto;
+    height: 35%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
    
 }
 
@@ -51,7 +53,7 @@ p{
 }
 
 .photo{
-    width:20vw;
+    width:15rem;
     border-radius: 6rem;
 }
 
@@ -79,14 +81,6 @@ li{
     flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
-    }
-
-    .photoDiv{
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .photo{
