@@ -77,9 +77,15 @@ li {
   font-weight: bold;
 }
 
-#button {
+#button1 {
   background-color: mediumorchid;
   border: 3px solid mediumorchid;
+  margin-top: 20px;
+}
+
+#button2 {
+  background-color: lightpink;
+  border: 3px solid lightpink;
   margin-top: 20px;
 }
 
